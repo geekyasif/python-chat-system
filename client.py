@@ -9,7 +9,7 @@ name = input("Enter your name to start the chat : ")
 
 #creating a connection with server
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('192.168.1.11',9999))
+client.connect((host,port))
 
 #creating a function to recieve the messages
 def recieve_messages():
