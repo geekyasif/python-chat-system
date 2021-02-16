@@ -1,7 +1,8 @@
 import socket
 import threading
 
-host = '192.168.1.11' #localhost
+#enter your local wifi public ip and port
+host = '127.0.0.1' #localhost
 port = 9999       # port
 
 #iniatilizing the socket

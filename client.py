@@ -1,6 +1,10 @@
 import socket
 import threading
 
+#enter your local wifi public ip and port
+host = '127.0.0.1' #local host
+port = 9999 #port
+
 name = input("Enter your name to start the chat : ")
 
 #creating a connection with server
